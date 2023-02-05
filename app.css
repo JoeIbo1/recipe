@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(186, 119, 30);
+}
+.header {
+  background-image: url(https://theproteinkitchen.dk/wp-content/uploads/2022/02/14-1536x864.jpg);
+  background-size: contain;
+  background-position: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(24, 19, 24);
+  padding-top: 150px;
+}
+
+.INGREDIENSER,
+.sådanGørDu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.INGREDIENSER h2,
+.sådanGørDu h2 {
+  text-align: center;
+}
+.INGREDIENSER li,
+.sådanGørDu li {
+  line-height: 1.5;
+  text-align: left;
+  margin-left: 20px;
+}
+.tip {
+  padding: 10px;
+  font-style: italic;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.INGREDIENSER,
+.sådanGørDu {
+  width: 45%;
+  float: left;
+  padding: 28px;
+  border: 2px solid #161515;
+  box-sizing: content-box;
+}
+
+.links {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.links h2 {
+  margin-bottom: 10px;
+}
+
+.links a {
+  color: blue;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.detail {
+  text-align: center;
+}
+
+.detail i {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
